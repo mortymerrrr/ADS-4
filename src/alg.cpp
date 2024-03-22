@@ -7,6 +7,7 @@ int countPairs1(int* arr, int size, int value) {
                 cnt += 1;
     return cnt;
 }
+
 int countPairs2(int* arr, int len, int value) {
     int cnt = 0;
     int left = 0;
@@ -24,6 +25,7 @@ int countPairs2(int* arr, int len, int value) {
     }
     return cnt;
 }
+
 int cbinsearch(int* arr, int size, int value) {
     int cnt = 0;
     int left = 0;
